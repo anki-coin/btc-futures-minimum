@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <!-- Editorial coin and risk boundary, not a price forecast. -->
+  <circle cx="204" cy="128" r="100" fill="none" stroke="#c5b8a3" stroke-width="1"/>
+  <circle cx="204" cy="128" r="77" fill="none" stroke="#c5b8a3" stroke-width="1" stroke-dasharray="2 9"/>
+  <path d="M28 186h344" stroke="#f7931a" stroke-width="3"/>
+  <path d="M28 201h344" stroke="#c5b8a3" stroke-width="1" stroke-dasharray="3 7"/>
+  <g stroke="#62584c" stroke-width="2.5" fill="#eee5d6">
+    <path d="M45 122v48M77 102v48M109 127v46M141 103v53"/>
+    <rect x="39" y="134" width="12" height="23"/><rect x="71" y="114" width="12" height="24"/>
+    <rect x="103" y="137" width="12" height="24"/><rect x="135" y="116" width="12" height="27"/>
+  </g>
+  <circle cx="250" cy="106" r="59" fill="#f7931a"/>
+  <circle cx="250" cy="106" r="49" fill="none" stroke="#3b342b" stroke-width="1.5"/>
+  <g fill="none" stroke="#3b342b" stroke-width="7" stroke-linejoin="round">
+    <path d="M231 79h24c25 0 25 25 0 25h-24m0 0h26c28 0 28 29 0 29h-26V79"/>
+    <path d="M241 68v11m14-11v11m-14 54v12m14-12v12" stroke-width="4"/>
+  </g>
+  <path d="M309 164l17-7 17 7v15c0 16-17 25-17 25s-17-9-17-25z" fill="#eee5d6" stroke="#f7931a" stroke-width="2.5"/>
+  <path d="M318 178l6 6 11-13" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+  <g fill="#62584c"><circle cx="144" cy="243" r="3"/><circle cx="160" cy="243" r="3"/><circle cx="176" cy="243" r="3"/><circle cx="192" cy="243" r="3"/><circle cx="208" cy="243" r="3"/><circle cx="224" cy="243" r="3"/><circle cx="240" cy="243" r="3"/></g>
+</svg>
