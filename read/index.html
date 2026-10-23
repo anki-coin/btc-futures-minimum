@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="안키 (직장인 아빠)" />
-  <meta name="dcterms.date" content="2026-10-20" />
-  <meta name="description" content="비트코인 선물 초보용 v0.91 원고. v0.9 내용은 그대로 두고 문제→발상 전환→공부→지켰더니 흐름의 장 첫·끝 문장, 비유 세 줄, 기록이 쌓인다는 결말을 더한 PDF·EPUB 조판 원본이다." />
+  <meta name="author" content="안키" />
+  <meta name="dcterms.date" content="2026-10-23" />
+  <meta name="description" content="비트코인 선물을 해보려는 초보가 첫 주문 전에 거래 구조와 위험을 이해하고, 손실 예산·수량·손절 계획을 계산하며 거래 기록을 돌아보도록 돕는 안키의 입문 노트." />
   <title>비트코인 선물, 최소한 이것만</title>
   <style>
     /* Default styles provided by pandoc.
@@ -35,8 +35,8 @@
 <h1 class="title">비트코인 선물, 최소한 이것만</h1>
 <p class="subtitle">초보가 첫 주문 전에 알아야 할 7가지 — 맞히기 전에
 작게 지는 법</p>
-<p class="author">안키 (직장인 아빠)</p>
-<p class="date">2026-10-20</p>
+<p class="author">안키</p>
+<p class="date">2026-10-23</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -45,8 +45,9 @@
 알다</a></li>
 <li><a href="#선물은-무엇을-사고파는가"
 id="toc-선물은-무엇을-사고파는가">01 · 선물은 무엇을 사고파는가</a></li>
-<li><a href="#전설도-거의-다-졌다" id="toc-전설도-거의-다-졌다">02 ·
-전설도 거의 다 졌다</a></li>
+<li><a href="#전설의-수익도-몇-판에-몰렸다"
+id="toc-전설의-수익도-몇-판에-몰렸다">02 · 전설의 수익도 몇 판에
+몰렸다</a></li>
 <li><a href="#부-작게-지는-도구" id="toc-부-작게-지는-도구">2부 · 작게
 지는 도구</a></li>
 <li><a href="#틀리면-얼마-주문-전-숫자-하나"
@@ -136,7 +137,10 @@ id="toc-부록-b.-차트-설정-최소한">부록 B. 차트 설정 최소한</a>
 있고, 맡긴 돈보다 큰 포지션을 잡을 수 있습니다. 그만큼 이익과 손실이
 같이 커지고, 담보가 부족해지면 거래소가 포지션을 강제로 닫습니다.</p>
 <div class="illustration">
-<p><img src="img/v091-fig02-style3.jpg" /></p>
+<figure>
+<img src="img/v091-fig02-style3.jpg" alt="현물과 무기한 선물의 차이" />
+<figcaption aria-hidden="true">현물과 무기한 선물의 차이</figcaption>
+</figure>
 <div class="caption">
 <p>그림 2. 현물과 무기한 선물의 차이</p>
 </div>
@@ -147,7 +151,12 @@ id="toc-부록-b.-차트-설정-최소한">부록 B. 차트 설정 최소한</a>
 이해하는 편이 정확합니다. 실제 손익에는 수량과 수수료·펀딩비가
 반영됩니다.</p>
 <div class="illustration">
-<p><img src="img/li48fyw1o0q9.jpg" /></p>
+<figure>
+<img src="img/li48fyw1o0q9.jpg"
+alt="롱과 숏 — 같은 진입가에서 방향에 따른 비용 전 손익(가상 예시)" />
+<figcaption aria-hidden="true">롱과 숏 — 같은 진입가에서 방향에 따른
+비용 전 손익(가상 예시)</figcaption>
+</figure>
 <div class="caption">
 <p>그림 3. 롱과 숏 — 같은 진입가에서 방향에 따른 비용 전 손익(가상
 예시)</p>
@@ -187,8 +196,8 @@ id="toc-부록-b.-차트-설정-최소한">부록 B. 차트 설정 최소한</a>
 <p><strong>여기까지 알게 된 것:</strong> 선물은 맞히는 게임이기 전에
 규칙을 아는 게임이었습니다. 규칙을 모르고 맞힌 500%는 실력이 아니라
 운이었습니다.</p>
-<h2 class="chapter" id="전설도-거의-다-졌다">02 · 전설도 거의 다
-졌다</h2>
+<h2 class="chapter" id="전설의-수익도-몇-판에-몰렸다">02 · 전설의 수익도
+몇 판에 몰렸다</h2>
 <p>‘워뇨띠’라는 이름으로 알려진 국내 비트코인 트레이더가 2026년 9월
 22일, 2018년부터 2021년까지의 비트멕스 거래 원장을 공개했습니다.
 비트코인 무기한 계약(XBTUSD)에서 진입부터 종료까지 끝난 포지션을 묶으면
@@ -202,17 +211,20 @@ id="toc-부록-b.-차트-설정-최소한">부록 B. 차트 설정 최소한</a>
 ④ 진 판의 손절은 가격 기준 중앙값 −0.2%, 진 판의 절반은 1시간 안에
 정리</p>
 </div>
-<p>상위 26판이 전체 순이익보다 많이 벌었습니다. 나머지 2,563판은 다
-합쳐도 거의 0입니다. 75%가 넘는 승률은 돈을 버는 장치라기보다, 큰 판이
-올 때까지 계좌를 지키는 장치였던 셈입니다. 우리가 본 건 하이라이트
-영상이었고, 풀버전은 2,563판짜리 ‘작게 지기’ 기록이었던 셈입니다.</p>
-<p>진 판은 가격이 겨우 0.2% 반대로 갔을 때 정리됐습니다. 틀렸다 싶으면
-바로 작게 졌다는 뜻입니다. 반대로 순손익 상위 31판은 고점에서 딱 팔지
-않고, 중앙값으로 고점 대비 7.7%를 내준 뒤에야 나왔습니다. <strong>작게
-지고, 맞은 판은 오래 탄 모양</strong>입니다.</p>
-<p>제 2020년과 정확히 반대였습니다. 저는 30배로 한 번 크게 맞혔고, 작게
-지는 법을 몰라 전부 잃었습니다. 그는 2,500번 넘게 작게 졌고, 그래서 큰
-판이 왔을 때 계좌가 살아 있었습니다.</p>
+<p>상위 26판의 순손익 합계가 전체 순이익보다 컸습니다. 나머지 2,563판은
+이긴 판과 진 판을 합쳐 −15.00 BTC였습니다. 이는 그 2,563판을 모두 졌다는
+뜻도, 각각의 손실이 작았다는 뜻도 아닙니다. 승률 75.7%와 별개로 순이익이
+소수의 큰 수익 거래에 몰렸다는 이야기입니다. 하이라이트 몇 장면과 전체
+기록은 다르게 읽어야 합니다.</p>
+<p>패배 거래의 가격 기준 손실 중앙값은 약 0.2%였습니다. 모든 패배를 그
+폭으로 잘랐다는 뜻은 아니며, 계좌 수익률이나 증거금 수익률과도 다릅니다.
+반대로 순손익 상위 31판은 보유 중 가격 고점에서 중앙값 7.7%를 내준 뒤
+나왔다는 분석이 있습니다. <strong>손실 거래의 크기와 큰 수익 거래의
+분포를 따로 보는 것</strong>이 이 기록에서 가져갈 질문입니다.</p>
+<p>저는 2020년을 크게 벌고도 결국 잃었던 시기로 기억합니다. 앞에서 밝힌
+회고 수치는 아직 거래내역으로 재확인하지 못했습니다. 이 원장은 승률과
+순이익의 집중도를 따로 보게 합니다. 원장의 결과만으로 그가 어떤 의도로
+거래했는지, 같은 방법이 앞으로도 통할지는 알 수 없습니다.</p>
 <div class="box">
 <p><strong>이 숫자를 읽는 법</strong><br />
 공개된 과거 원장을 사후에 다시 계산한 결과입니다. 그가 ‘0.2%에서
@@ -255,7 +267,12 @@ alt="승률만으로는 수익을 설명할 수 없다" />
 수량은 5 ÷ 500 = 0.01 BTC, 명목금액은 500 USDT입니다. 순서는 늘
 같습니다. <strong>손실 예산 → 손절 거리 → 수량.</strong></p>
 <div class="illustration">
-<p><img src="img/v091-fig07-style3.jpg" /></p>
+<figure>
+<img src="img/v091-fig07-style3.jpg"
+alt="허용 손실 → 손절 거리 → 수량 (가상 예시, 비용 전)" />
+<figcaption aria-hidden="true">허용 손실 → 손절 거리 → 수량 (가상 예시,
+비용 전)</figcaption>
+</figure>
 <div class="caption">
 <p>그림 7. 허용 손실 → 손절 거리 → 수량 (가상 예시, 비용 전)</p>
 </div>
@@ -305,8 +322,9 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 <p><strong>한 장 카드 — 주문 버튼 옆에 붙여 둘 세 줄</strong><br />
 ① 이번 거래가 틀리면 잃을 금액(손실 예산) <strong><em><br />
 ② 진입가와 손절가의 거리 </em></strong><br />
-③ 수량 = ① ÷ ② = ___ (수수료·펀딩을 빼면 조금 더 줄인다)<br />
-셋 중 하나라도 비어 있으면 주문하지 않습니다.</p>
+③ 비용 전 수량(BTC) = ①(USDT) ÷ ②(USDT/BTC) = ___<br />
+셋 중 하나라도 비어 있으면 주문하지 않습니다. 비용 포함 수량은 부록 C의
+가상 예시처럼 다시 계산합니다.</p>
 </div>
 <div class="illustration">
 <figure>
@@ -358,7 +376,10 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 영역입니다. 한 가격에서 정확히 반응한다고 보기보다 폭이 있는 구간으로
 봅니다.</p>
 <div class="illustration">
-<p><img src="img/cus67dnsfpsn.png" /></p>
+<figure>
+<img src="img/cus67dnsfpsn.png" alt="지지와 저항" />
+<figcaption aria-hidden="true">지지와 저항</figcaption>
+</figure>
 <div class="caption">
 <p>그림 12. 지지와 저항</p>
 </div>
@@ -372,7 +393,12 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 근처라는 이유만으로 사거나 저항 근처라는 이유만으로 팔지 않습니다.
 반응을 확인하고, 틀리는 조건과 남은 거리를 함께 적습니다.</p>
 <div class="illustration">
-<p><img src="img/eo3tj6xpf8vs.jpg" /></p>
+<figure>
+<img src="img/eo3tj6xpf8vs.jpg"
+alt="저항라인과 지지라인 — 범위 매매 예시" />
+<figcaption aria-hidden="true">저항라인과 지지라인 — 범위 매매
+예시</figcaption>
+</figure>
 <div class="caption">
 <p>그림 13. 저항라인과 지지라인 — 범위 매매 예시</p>
 </div>
@@ -386,19 +412,27 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 지지가 깨지면 그 선이 저항으로 바뀌는지 봅니다. 다만 재확인이 오지
 않거나, 반응한 뒤 다시 이탈할 수도 있습니다.</p>
 <div class="illustration">
-<p><img src="img/orig_breakout_retest.png" /></p>
+<figure>
+<img src="img/orig_breakout_retest.png" alt="돌파 후 리테스트" />
+<figcaption aria-hidden="true">돌파 후 리테스트</figcaption>
+</figure>
 <div class="caption">
 <p>그림 14. 돌파 후 리테스트</p>
 </div>
 </div>
-<p><strong>그래서 손절은 어디:</strong> 돌파한 선 위에서 리테스트를 보고
-롱을 잡았다면, 그 선 아래로 다시 확실히 마감할 때가 ‘틀렸다’입니다.</p>
+<p><strong>종가 판단과 손절 주문:</strong> 돌파한 선 아래로 다시
+마감하면 시나리오를 재검토합니다. 이것과 실제 손절 주문은 별개입니다.
+진입 전에 손실 예산에 맞는 종료 주문 가격과 수량을 정하며, 그 가격이
+먼저 트리거되면 종가를 기다리려고 손절을 미루지 않습니다.</p>
 <h3 id="실제-차트-1-중장기-이더리움-주봉2022년">실제 차트 1 — 중장기:
 이더리움 주봉(2022년)</h3>
 <p>아래는 2022년 11월 무렵 제가 그린 이더리움 주봉입니다. 2021년 11월
 고점부터 이어진 하락 추세선을 1년 가까이 넘지 못하고 있었습니다.</p>
 <div class="illustration">
-<p><img src="img/h0q12duxxx51.jpg" /></p>
+<figure>
+<img src="img/h0q12duxxx51.jpg" alt="이더리움 주봉" />
+<figcaption aria-hidden="true">이더리움 주봉</figcaption>
+</figure>
 <div class="caption">
 <p>그림 15. 이더리움 주봉</p>
 </div>
@@ -406,16 +440,22 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 <p>당시 해석은 이랬습니다. 큰 흐름은 아직 하락이다. 주봉 마감에서 20주
 이동평균선과 추세선을 거래량과 함께 강하게 넘으면 그때 롱을 검토한다.
 20주선을 회복하지 못하면 당분간 하락으로 본다.</p>
-<p><strong>그래서 손절은 어디:</strong> 추세선 돌파 롱이라면, 주봉이
-다시 추세선 아래로 마감할 때가 틀린 자리입니다. 주봉 손절은 폭이 넓으니
-3장의 계산대로 수량을 크게 줄여야 합니다.</p>
+<p><strong>종가 판단과 손절 주문:</strong> 주봉이 다시 추세선 아래로
+마감하면 분석 시나리오를 재검토합니다. 주봉 마감까지 손실을 그대로
+버틴다는 뜻은 아닙니다. 실제 포지션은 진입 전에 정한 종료 주문 가격과
+수량으로 관리하며, 가격 트리거가 먼저 실행되면 그 주문을 따릅니다.
+허용할 손절 거리로는 손실 예산을 맞출 수 없다면 진입하지 않는 선택도
+있습니다.</p>
 <h3 id="실제-차트-2-단기-폴리곤-4시간봉-15분봉2022년">실제 차트 2 —
 단기: 폴리곤 4시간봉 → 15분봉(2022년)</h3>
 <p>단기로 볼 때도 큰 봉부터 내려옵니다. 폴리곤(MATIC) 4시간봉은
 비트코인이 크게 빠지는 동안에도 상승 채널을 지켰고, 1.02 부근은 여러 번
 지지와 저항을 받은 수평선이었습니다.</p>
 <div class="illustration">
-<p><img src="img/uz8v05syf5yd.jpg" /></p>
+<figure>
+<img src="img/uz8v05syf5yd.jpg" alt="폴리곤 4시간봉" />
+<figcaption aria-hidden="true">폴리곤 4시간봉</figcaption>
+</figure>
 <div class="caption">
 <p>그림 16. 폴리곤 4시간봉</p>
 </div>
@@ -424,20 +464,31 @@ alt="비용을 빼먹으면 예산을 넘는다" />
 당시에는 15분봉 마감을 보며 그 자리에서 짧은 반등을 노리고, 채널 하단이
 거래량과 함께 깨지면 짧은 숏을 검토했습니다.</p>
 <div class="illustration">
-<p><img src="img/91k7srf9kv1z.jpg" /></p>
+<figure>
+<img src="img/91k7srf9kv1z.jpg" alt="폴리곤 15분봉" />
+<figcaption aria-hidden="true">폴리곤 15분봉</figcaption>
+</figure>
 <div class="caption">
 <p>그림 17. 폴리곤 15분봉</p>
 </div>
 </div>
-<p><strong>그래서 손절은 어디:</strong> 1.02 지지 롱이면 1.02 아래 마감,
-채널 이탈 숏이면 다시 채널 안으로 돌아오는 마감입니다.</p>
+<p><strong>종가 판단과 손절 주문:</strong> 1.02 지지 롱은 그 아래 마감,
+채널 이탈 숏은 다시 채널 안으로 돌아오는 마감을 분석 재검토 기준으로
+봅니다. 실제 주문의 종료 가격은 종가 조건과 구분해 미리 정합니다. 손실
+제한 주문이 먼저 실행됐다면 봉 마감을 기다리기 위해 다시 위험을 늘리지
+않습니다.</p>
 <h3
 id="실제-차트-3-매매-영역-정하기-비트코인-4시간봉2022년-11월-14일">실제
 차트 3 — 매매 영역 정하기: 비트코인 4시간봉(2022년 11월 14일)</h3>
 <p>매매할 영역과 하지 않을 영역을 먼저 나눕니다. 초록 동그라미는 18.6k
 부근에서 여러 번 지지를 받은 자리입니다.</p>
 <div class="illustration">
-<p><img src="img/gvtl8n5225fw.jpg" /></p>
+<figure>
+<img src="img/gvtl8n5225fw.jpg"
+alt="비트코인 4시간봉, 2022년 11월 14일" />
+<figcaption aria-hidden="true">비트코인 4시간봉, 2022년 11월
+14일</figcaption>
+</figure>
 <div class="caption">
 <p>그림 18. 비트코인 4시간봉, 2022년 11월 14일</p>
 </div>
@@ -457,7 +508,12 @@ id="실제-차트-3-매매-영역-정하기-비트코인-4시간봉2022년-11월
 봅니다. 아래 비트코인 4시간봉은 저점과 고점이 함께 높아지는 상승 쐐기
 모양이었고, 하단 추세선을 이탈하면 크게 밀릴 수 있는 자리였습니다.</p>
 <div class="illustration">
-<p><img src="img/z3rzvl1dfagv.jpg" /></p>
+<figure>
+<img src="img/z3rzvl1dfagv.jpg"
+alt="비트코인 4시간봉, 2022년 8월 11일 17시 무렵부터" />
+<figcaption aria-hidden="true">비트코인 4시간봉, 2022년 8월 11일 17시
+무렵부터</figcaption>
+</figure>
 <div class="caption">
 <p>그림 19. 비트코인 4시간봉, 2022년 8월 11일 17시 무렵부터</p>
 </div>
@@ -505,7 +561,12 @@ alt="계획과 실제 체결은 다를 수 있다" />
 종료입니다.</strong> 청산가를 손절가처럼 쓰지 않습니다. 손절은 반드시
 청산가보다 훨씬 앞에 둡니다.</p>
 <div class="illustration">
-<p><img src="img/v091-fig21-style3.jpg" /></p>
+<figure>
+<img src="img/v091-fig21-style3.jpg"
+alt="손절과 청산 — 종료 계획과 강제 종료" />
+<figcaption aria-hidden="true">손절과 청산 — 종료 계획과 강제
+종료</figcaption>
+</figure>
 <div class="caption">
 <p>그림 21. 손절과 청산 — 종료 계획과 강제 종료</p>
 </div>
@@ -565,8 +626,8 @@ alt="계획과 실제 체결은 다를 수 있다" />
 반등했고, 결국 손으로 손절했다.<br />
 <strong>몰랐던 것:</strong> 29% 빠진 뒤에 타는 숏은 추세가 아니라
 추격이다. 익절만 걸린 주문은 반쪽짜리 계획이다.<br />
-<strong>지금의 규칙:</strong> 모든 선물 주문에는 손절이 먼저 들어간다.
-손절 칸이 비어 있으면 주문 버튼을 누르지 않는다.</p>
+<strong>복기에서 정리한 규칙:</strong> 모든 선물 주문에는 손절이 먼저
+들어간다. 손절 칸이 비어 있으면 주문 버튼을 누르지 않는다.</p>
 </div>
 <div class="box">
 <p><strong>그날의 로그 — 2026년 3월, 11배 롱을 이틀 반 들고 버틴
@@ -577,9 +638,9 @@ alt="계획과 실제 체결은 다를 수 있다" />
 간다. 이틀 반을 버티다 증거금 기준 −20.7%로 닫았다.<br />
 <strong>몰랐던 것:</strong> 틀린 진입보다 무서운 건 틀린 뒤에도 계속
 들고 가는 보유다. ‘이번만’은 시장이 제일 좋아하는 먹잇감이다.<br />
-<strong>지금의 규칙:</strong> 손절 숫자와 ‘이 생각이 틀렸다’는 문장 한
-줄이 없으면 주문하지 않는다. 손실 직후에는 4시간봉 하나가 닫힐 때까지
-쉰다. 스윙은 5배 이하만 본다.</p>
+<strong>복기에서 정리한 규칙:</strong> 손절 숫자와 ‘이 생각이 틀렸다’는
+문장 한 줄이 없으면 주문하지 않는다. 손실 직후에는 4시간봉 하나가 닫힐
+때까지 쉰다. 스윙은 5배 이하만 본다.</p>
 </div>
 <div class="illustration">
 <figure>
@@ -639,11 +700,12 @@ alt="추가 주문도 손실 계산에 넣는다" />
 돌봐야 하고, 잠도 자야 합니다. 이 일정은 매매 뒤에 끼워 넣을 빈칸이
 아니라 처음부터 계획에 들어갈 조건입니다.</p>
 <h3 id="손절을-따라-하면-생기는-일">0.2% 손절을 따라 하면 생기는 일</h3>
-<p>2장의 0.2% 손절은 화면 앞에 붙어 있는 사람의 무기입니다. 진 판의
-절반을 1시간 안에 정리하려면 계속 지켜봐야 합니다. 비트코인은 몇 시간
-사이에도 0.2%쯤은 쉽게 오르내립니다. 직장인이 같은 폭으로 손절을 걸면,
-오전 회의를 마치고 나왔을 때 손절은 이미 나가 있고 가격은 원래 생각한
-방향으로 가 있기 일쑤입니다.</p>
+<p>2장의 0.2%는 과거 패배 거래를 요약한 중앙값이지, 누구에게나 맞는 손절
+폭이 아닙니다. 진 판의 절반이 1시간 안에 끝났다는 통계만으로 수동
+감시·자동 주문 중 무엇을 썼는지도 알 수 없습니다. 좁은 손절은 작은 가격
+변동에도 실행될 수 있습니다. 직장인에게 필요한 질문은 그 수치를 따라
+할지가 아니라, 내가 볼 수 있는 시간과 선택한 가격 구간에 맞춰 손실
+예산을 설계할 수 있느냐입니다.</p>
 <div class="illustration">
 <figure>
 <img src="img/v091-fig26-style3.jpg" alt="내가 볼 수 있는 시간부터" />
@@ -708,8 +770,9 @@ alt="손절 거리가 넓어지면 수량을 줄인다" />
 부업이다.<br />
 <strong>몰랐던 것:</strong> 직장인에게 매일 단타는 실력보다 시간과
 멘탈의 문제다.<br />
-<strong>지금의 규칙:</strong> 매일 하는 단타는 하지 않는다. 정해 둔
-시각에 볼 수 있는 스윙만 보고, 볼 수 없는 날은 관망을 계획에 넣는다.</p>
+<strong>복기에서 정리한 규칙:</strong> 매일 하는 단타는 하지 않는다.
+정해 둔 시각에 볼 수 있는 스윙만 보고, 볼 수 없는 날은 관망을 계획에
+넣는다.</p>
 </div>
 <div class="illustration">
 <figure>
@@ -733,17 +796,18 @@ alt="손절 거리가 넓어지면 수량을 줄인다" />
 원장이었습니다. 그 그림들을 다시 넘겨 보며 어떤 선이 맞았고 어떤 SL이
 너무 좁았는지 적기 시작하면서, 남의 매매법이 아니라 제 매매법이 보이기
 시작했습니다.</p>
-<h3 id="그랬더니">그랬더니</h3>
-<p>솔직히 아직 배우는 중입니다. 대신 주문 전에 두 줄을 먼저 적습니다.
-손절 숫자, 그리고 이 생각이 틀렸다고 판단할 문장 한 줄. 매일 하던 단타는
-그만뒀고, 스윙은 5배 이하로만 봅니다. 손실이 난 날은 4시간봉 하나가 닫힐
-때까지 차트를 끕니다.</p>
-<p>부자가 되지는 않았습니다. 대신 제 기록에서 −20%짜리 날이 사라졌고,
-‘오늘은 안 들어간다’고 적은 날이 늘었습니다. 지금도 틀립니다. 다만
-틀렸을 때 얼마를 잃을지는 이제 제가 정합니다.</p>
-<p>크게 이기는 날은 없었습니다. 대신 크게 지는 날이 사라지자, 매매가 한
-판 한 판 기록으로 쌓이기 시작했습니다. 적금 붓듯 매매 기록을 적립하는
-셈입니다. 그 기록에서 무엇을 읽어 내는지가 이 장의 나머지입니다.</p>
+<h3 id="아직-결과로-말할-수-없는-것">아직 결과로 말할 수 없는 것</h3>
+<p>손절 숫자와 이 생각이 틀렸다고 판단할 문장 한 줄을 주문 전에 정하자는
+것이 이 책의 원칙입니다. 다만 원칙을 적어 두는 일과 실제로 지킨 일,
+그리고 손실이 줄어든 결과는 서로 다릅니다.</p>
+<p>이 원고에서는 같은 기간·같은 측정 기준으로 원칙 적용 전후의 성과를
+검증하지 못했습니다. 그래서 큰 손실이 사라졌다거나 특정 비율의 손실을
+더는 보지 않는다고 말하지 않겠습니다. 현재의 습관과 준수 여부도 기록으로
+확인할 몫입니다.</p>
+<p>남길 것은 성공담보다 확인할 수 있는 기록입니다. 한 판씩 계획과 실제
+행동을 적립하고, 그 기록에서 무엇을 읽을지 정하는 방법을 아래에
+정리했습니다. 빈 활동지를 채웠다는 이유만으로 효과가 검증되는 것은
+아닙니다.</p>
 <h3 id="리뷰-3단계">리뷰 3단계</h3>
 <p><strong>1단계, 기록합니다.</strong> 주문 전에 진입 이유, 손절 숫자,
 무효화 문장, 볼 수 없는 시간을 적습니다. 끝나면 실제 진입·종료, 비용,
@@ -775,8 +839,8 @@ SL ⑤와 TP ③은 수익이 났더라도 다음에 반복할 행동으로 칭�
 <p>열 번 중 여섯 번 이겨도 잔액은 줄 수 있습니다. 여섯 번 1씩 벌고 네 번
 2씩 잃으면 비용 전에도 −2입니다. 반대로 승률 40%라도 평균 이익이 손실의
 두 배면 거래당 +0.2R(R은 처음 정한 손실 예산)입니다. 2장의 원장도 같은
-이야기였습니다. 승률 75%보다 중요한 건 상위 26판이 얼마나 컸고, 나머지
-판이 얼마나 작게 졌느냐였습니다.</p>
+이야기였습니다. 승률 75%만 보는 대신 상위 26판의 수익 집중과 나머지
+거래의 합산 손익, 패배 거래의 손실 분포를 나눠 봐야 했습니다.</p>
 <p>원장을 나눠 보면 스타일도 보입니다. 같은 원장을 진입 직전 4시간의
 가격 방향으로 나눠 보니, 그는 흐름과 반대로 들어가는 역추세 진입을 더
 자주 했습니다(1,619판). 그런데 순이익은 흐름과 같은 방향의 추세
@@ -832,7 +896,11 @@ SL ⑤와 TP ③은 수익이 났더라도 다음에 반복할 행동으로 칭�
 입력 ④ 수량 단위가 코인인지 계약인지 금액인지 확인 ⑤ 방향·수량·손절
 계획을 다시 보고 주문합니다.</p>
 <div class="illustration">
-<p><img src="img/l5c7h187a71m.jpg" /></p>
+<figure>
+<img src="img/l5c7h187a71m.jpg" alt="포지션 진입 — Bitget 과거 화면" />
+<figcaption aria-hidden="true">포지션 진입 — Bitget 과거
+화면</figcaption>
+</figure>
 <div class="caption">
 <p>그림 33. 포지션 진입 — Bitget 과거 화면</p>
 </div>
@@ -841,7 +909,12 @@ SL ⑤와 TP ③은 수익이 났더라도 다음에 반복할 행동으로 칭�
 <p>① 종료(Close) 탭 ② 지정가·시장가 ③ 가격 ④ 전체인지 일부인지 수량 확인
 ⑤ 종료 뒤 남은 포지션과 살아 있는 주문을 확인합니다.</p>
 <div class="illustration">
-<p><img src="img/bybit_close_masked.jpg" /></p>
+<figure>
+<img src="img/bybit_close_masked.jpg"
+alt="포지션 종료 — Bybit 과거 화면(계좌 정보는 가림)" />
+<figcaption aria-hidden="true">포지션 종료 — Bybit 과거 화면(계좌 정보는
+가림)</figcaption>
+</figure>
 <div class="caption">
 <p>그림 34. 포지션 종료 — Bybit 과거 화면(계좌 정보는 가림)</p>
 </div>
@@ -851,7 +924,12 @@ SL ⑤와 TP ③은 수익이 났더라도 다음에 반복할 행동으로 칭�
 기준(최종 체결가·마크가격 등)과 실제 주문 방식을 확인하고, 보유 중에
 조건을 바꿨다면 수량과 가격이 의도대로 남았는지 확인합니다.</p>
 <div class="illustration">
-<p><img src="img/2dwaadp59e2v.jpg" /></p>
+<figure>
+<img src="img/2dwaadp59e2v.jpg"
+alt="손절·익절 설정 — Bybit 과거 화면" />
+<figcaption aria-hidden="true">손절·익절 설정 — Bybit 과거
+화면</figcaption>
+</figure>
 <div class="caption">
 <p>그림 35. 손절·익절 설정 — Bybit 과거 화면</p>
 </div>
@@ -862,13 +940,23 @@ Binance</h3>
 고릅니다. 배수와 모드를 바꿔도 손실 예산과 수량 계산이 먼저입니다.
 화면의 125배는 사용을 권하는 값이 아닙니다.</p>
 <div class="illustration">
-<p><img src="img/tirj033psbji.png" /></p>
+<figure>
+<img src="img/tirj033psbji.png"
+alt="레버리지 조정 — Binance 과거 화면" />
+<figcaption aria-hidden="true">레버리지 조정 — Binance 과거
+화면</figcaption>
+</figure>
 <div class="caption">
 <p>그림 36. 레버리지 조정 — Binance 과거 화면</p>
 </div>
 </div>
 <div class="illustration">
-<p><img src="img/5jdcu5ysgf49.png" /></p>
+<figure>
+<img src="img/5jdcu5ysgf49.png"
+alt="교차·격리 증거금 모드 — Binance 과거 화면" />
+<figcaption aria-hidden="true">교차·격리 증거금 모드 — Binance 과거
+화면</figcaption>
+</figure>
 <div class="caption">
 <p>그림 37. 교차·격리 증거금 모드 — Binance 과거 화면</p>
 </div>
@@ -880,14 +968,22 @@ Binance</h3>
 있습니다.</p>
 <h3 id="시간봉">시간봉</h3>
 <div class="illustration">
-<p><img src="img/dqqprfgs2m72.jpg" /></p>
+<figure>
+<img src="img/dqqprfgs2m72.jpg" alt="시간봉 설정" />
+<figcaption aria-hidden="true">시간봉 설정</figcaption>
+</figure>
 <div class="caption">
 <p>그림 38. 시간봉 설정</p>
 </div>
 </div>
 <h3 id="추세선수평선-도구">추세선·수평선 도구</h3>
 <div class="illustration">
-<p><img src="img/orig_trendline_tools.jpg" /></p>
+<figure>
+<img src="img/orig_trendline_tools.jpg"
+alt="추세선(Trend Line)·수평선(Horizontal Line)·평행 채널" />
+<figcaption aria-hidden="true">추세선(Trend Line)·수평선(Horizontal
+Line)·평행 채널</figcaption>
+</figure>
 <div class="caption">
 <p>그림 39. 추세선(Trend Line)·수평선(Horizontal Line)·평행 채널</p>
 </div>
@@ -897,13 +993,19 @@ Binance</h3>
 4시간봉 평균입니다. 거래량은 코인 수량인지 금액인지 단위를
 확인합니다.</p>
 <div class="illustration">
-<p><img src="img/dbt73oyy4hgv.jpg" /></p>
+<figure>
+<img src="img/dbt73oyy4hgv.jpg" alt="이동평균선 기간 설정" />
+<figcaption aria-hidden="true">이동평균선 기간 설정</figcaption>
+</figure>
 <div class="caption">
 <p>그림 40. 이동평균선 기간 설정</p>
 </div>
 </div>
 <div class="illustration">
-<p><img src="img/ytbn0673ys47.jpg" /></p>
+<figure>
+<img src="img/ytbn0673ys47.jpg" alt="거래량 설정" />
+<figcaption aria-hidden="true">거래량 설정</figcaption>
+</figure>
 <div class="caption">
 <p>그림 41. 거래량 설정</p>
 </div>
@@ -913,7 +1015,7 @@ Binance</h3>
 <p><strong>한 장 카드</strong><br />
 ① 이번 거래가 틀리면 잃을 금액(손실 예산) <strong><em><br />
 ② 진입가와 손절가의 거리 </em></strong><br />
-③ 수량 = ① ÷ ② = ___ (수수료·펀딩을 빼면 조금 더 줄인다)</p>
+③ 비용 전 수량(BTC) = ①(USDT) ÷ ②(USDT/BTC) = ___</p>
 </div>
 <div class="box">
 <p><strong>새벽 10분 차트 노트</strong><br />
@@ -938,6 +1040,36 @@ ___ 규칙 위반 <strong><em>)<br />
 순손익이 가장 좋았던 진입 방식 </em></strong> / 크게 진 판이 몰린 원인
 ___ / 다음 30판에서 바꿀 행동 하나 ___</p>
 </div>
+<section id="채워-본-한-장-카드-전부-가상인-작성-예시"
+class="worked-example">
+<h3>채워 본 한 장 카드 — 전부 가상인 작성 예시</h3>
+<p>아래 숫자는 실제 거래나 저자의 성과가 아닙니다. 선형 USDT 계약의 롱을
+가정하고, 손절가와 같은 가격에 체결되며 펀딩과 슬리피지는 0이라고 둔
+계산 연습입니다. 실제 주문에서는 이 가정이 깨질 수 있습니다.</p>
+<ul>
+<li>손실 예산: 5 USDT. 진입가: 50,000 USDT/BTC. 손절 주문 가격: 49,500
+USDT/BTC.</li>
+<li>손절 거리: 500 USDT/BTC. 비용 전 수량: 5 ÷ 500 = 0.01 BTC.</li>
+<li>진입·종료 수수료율을 각각 0.05%로 가정하면, 1 BTC당 예상 수수료는
+(50,000 + 49,500) × 0.0005 = 49.75 USDT/BTC입니다.</li>
+<li>비용 포함 계산상 수량은 5 ÷ (500 + 49.75) ≈ 0.009095 BTC 이하입니다.
+예시에서는 0.009 BTC로 내려 잡습니다. 실제 주문은 해당 상품의 최소
+수량·수량 단위를 따로 확인합니다.</li>
+<li>0.009 BTC의 손절 가격 손실은 4.5 USDT, 왕복 수수료는 0.44775 USDT,
+합계는 4.94775 USDT입니다. 남는 약 0.05225 USDT는 실제 체결 차이·펀딩을
+충분히 감당한다는 보장이 아닙니다.</li>
+</ul>
+<p><strong>가상 리뷰 기록:</strong> 계획은 지지 구간 반등, 무효화 조건은
+미리 정한 구간 이탈이라고 적습니다. 연습용 결과를 ‘손절가와 같은
+가격으로 종료’라고 가정하면, 비용 포함 손익은 −4.94775 USDT입니다. 이
+숫자는 시장에서 관측한 결과가 아닙니다. ‘손절 실행’만으로 진입 근거가
+틀렸는지, 손절이 좁았는지는 알 수 없으므로 원인 분류는 ‘판단 보류,
+차트·계획 대조 필요’로 남깁니다.</p>
+<p>비용은 돈(USDT)이고 수량은 BTC입니다. 수수료 금액을 BTC 수량에서
+그대로 빼지 않습니다. 펀딩을 받는 경우와 내는 경우를 구분하고, 실제 체결
+가격으로 손익을 셌다면 그 안의 슬리피지를 다시 비용으로 빼지
+않습니다.</p>
+</section>
 <h2 class="appendix" id="출처">출처</h2>
 <ul>
 <li>Binance 펀딩 구조:
@@ -961,8 +1093,14 @@ href="https://www.bybit.com/help-center/article/Take-Profit-and-Stop-Loss">TP/SL
 <a
 href="https://www.bybit.com/en/help-center/article/?id=000001982&amp;language=en_US">증거금
 모드 비교</a>.</li>
-<li>확인 기준일: 2026-10-20. 거래소별 조건은 바뀔 수 있으니 주문 전 공식
-안내를 확인하세요.</li>
+<li>v0.92 설명 보완 확인(2026-10-23): <a
+href="https://bybit-exchange.github.io/docs/v5/order/create-order">Bybit
+주문 API — 트리거와 손절 주문</a>, <a
+href="https://www.bybit.com/en/help-center/article/FAQ-Order-Execution-and-Liquidation">주문
+실행·청산 FAQ</a>. 가격 트리거와 실제 체결을 구분하는 설명에
+사용했습니다.</li>
+<li>나머지 기존 자료의 확인 기준일: 2026-10-20. 거래소별 조건은 바뀔 수
+있으니 주문 전 공식 안내를 확인하세요.</li>
 </ul>
 </body>
 </html>

@@ -44,3 +44,6 @@ nav#TOC a { color: #202b30; text-decoration: none; line-height: 2; }
 h2.chapter { margin-top: 56px; }
 figure { margin: 20px 0 4px; }
 img { height: auto; }
+
+/* 출처의 긴 URL이 좁은 화면 바깥으로 밀려나지 않도록 한다. */
+a, li { overflow-wrap: anywhere; }
